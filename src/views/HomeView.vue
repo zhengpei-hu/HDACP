@@ -10,11 +10,11 @@ const router = useRouter()
 // Carousel State
 const currentSlide = ref(0)
 const carouselImages = [
-  { src: '/carousel/hezhao3.jpg', caption: '' },
-  { src: '/carousel/hdacp.png', caption: '' },
-  { src: '/carousel/hezhao2.jpg', caption: '' },
-  { src: '/carousel/hezhao4.jpg', caption: '' },
-  { src: '/carousel/hezhao.jpg', caption: '' }
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao3.jpg`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hdacp.png`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao2.jpg`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao4.jpg`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao.jpg`, caption: '' }
 ]
 
 let slideInterval = null
@@ -113,7 +113,7 @@ const latestPapers = (papersData && Array.isArray(papersData) && papersData.leng
         <div class="section-title">
           <h3>研究方向</h3>
         </div>
-        <div class="grid-4">
+        <div class="research-grid">
           <div v-for="(area, index) in researchData.directions" :key="index" class="card research-card fade-in" :style="{ animationDelay: `${index * 0.1}s` }">
             <div class="icon-box">
               <i class="icon">🔬</i>
@@ -321,6 +321,45 @@ section {
 .paper-venue {
   font-weight: 500;
   color: var(--secondary-color);
+}
+
+
+/* Research Grid - 5 Items in One Row */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px; /* Reduced gap to fit 5 items */
+}
+
+.research-grid > .research-card {
+  /* Reset flex properties if any */
+  width: auto;
+  height: 100%; /* Ensure full height filling */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure description takes available space so button pushes to bottom */
+.direction-desc {
+  flex: 1;
+}
+
+@media (max-width: 1200px) {
+  .research-grid {
+    grid-template-columns: repeat(3, 1fr); /* Wrap on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {

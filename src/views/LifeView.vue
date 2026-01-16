@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import lifeData from '@/data/life.json'
 
 const activeTab = ref('academic')
+const baseUrl = import.meta.env.BASE_URL
 
 const tabs = [
   { id: 'academic', name: '学术交流' },
@@ -15,7 +16,7 @@ const tabs = [
   <div class="life-page">
     <div class="container">
       <div class="section-title">
-        <h3>实验室生活</h3>
+        <h3>科研成果</h3>
       </div>
       
       <div class="tabs">
@@ -35,7 +36,7 @@ const tabs = [
           <h4 class="event-title">{{ event.event }}</h4>
           <div class="gallery-grid">
             <div v-for="(img, idx) in event.images" :key="idx" class="gallery-item">
-              <img :src="`/images/life/academic/${img}`" :alt="event.event" />
+              <img :src="`${baseUrl}images/life/academic/${img}`" :alt="event.event" />
             </div>
           </div>
         </div>
@@ -47,7 +48,7 @@ const tabs = [
           <h4 class="category-title">{{ category.category }}</h4>
           <div class="gallery-grid">
             <div v-for="(img, idx) in category.images" :key="idx" class="gallery-item honor-item">
-              <img :src="`/images/life/honors/${img}`" :alt="category.category" />
+              <img :src="`${baseUrl}images/life/honors/${img}`" :alt="category.category" />
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ const tabs = [
             class="competition-card"
           >
             <div class="comp-logo">
-              <img :src="`/images/life/competitions/${comp.logo}`" :alt="comp.name" />
+              <img :src="`${baseUrl}images/life/competitions/${comp.logo}`" :alt="comp.name" />
             </div>
           </a>
         </div>

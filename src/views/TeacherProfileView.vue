@@ -8,6 +8,8 @@ const route = useRoute()
 const teacher = computed(() => {
   return teamData.teachers.find(t => t.id === route.params.id) || null
 })
+
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -22,7 +24,7 @@ const teacher = computed(() => {
         <!-- Profile Header -->
         <div class="profile-header">
           <div class="profile-photo">
-            <img :src="`/people/teacher/${teacher.photo}`" :alt="teacher.name" />
+            <img :src="`${baseUrl}people/teacher/${teacher.photo}`" :alt="teacher.name" />
           </div>
           <div class="profile-info">
             <h1 class="profile-name">{{ teacher.name }}</h1>

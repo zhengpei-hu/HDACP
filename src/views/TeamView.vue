@@ -4,6 +4,7 @@ import { RouterLink } from 'vue-router'
 import teamData from '@/data/team.json'
 
 const activeTab = ref('current')
+const baseUrl = import.meta.env.BASE_URL
 
 const teachers = teamData.teachers
 const currentStudents = computed(() => 
@@ -31,7 +32,7 @@ const graduatedStudents = computed(() =>
             class="teacher-card"
           >
             <div class="teacher-photo">
-              <img :src="`/people/teacher/${teacher.photo}`" :alt="teacher.name" />
+              <img :src="`${baseUrl}people/teacher/${teacher.photo}`" :alt="teacher.name" />
             </div>
             <div class="teacher-info">
               <h4 class="teacher-name">{{ teacher.name }}</h4>
@@ -74,7 +75,7 @@ const graduatedStudents = computed(() =>
             :class="{ 'has-link': student.link }"
           >
             <div class="student-photo">
-              <img :src="`/people/student/${student.photo}`" :alt="student.name" />
+              <img :src="`${baseUrl}people/student/${student.photo}`" :alt="student.name" />
             </div>
             <div class="student-info">
               <h5 class="student-name">{{ student.name }}</h5>
@@ -96,7 +97,7 @@ const graduatedStudents = computed(() =>
             :class="{ 'has-link': student.link }"
           >
             <div class="student-photo">
-              <img :src="`/people/student/${student.photo}`" :alt="student.name" />
+              <img :src="`${baseUrl}people/student/${student.photo}`" :alt="student.name" />
             </div>
             <div class="student-info">
               <h5 class="student-name">{{ student.name }}</h5>

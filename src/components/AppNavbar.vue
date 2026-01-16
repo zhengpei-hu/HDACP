@@ -8,7 +8,7 @@ const navItems = [
   { path: '/news', name: '新闻动态' },
   { path: '/projects', name: '科研项目' },
   { path: '/papers', name: '论文发表' },
-  { path: '/life', name: '实验室生活' },
+  { path: '/life', name: '科研成果' },
   { path: '/contact', name: '联系我们' }
 ]
 </script>
