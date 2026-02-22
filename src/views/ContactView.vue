@@ -15,10 +15,12 @@ const teachers = [
   { name: '王晓英', email: 'wxy_cta@qhu.edu.cn' },
   { name: '黄建强', email: 'hjqxaly@163.com' },
   { name: '贾金芳', email: 'qhu_jf@163.com' },
-  { name: '朱宇', email: 'sdcxzhuyu@163.com' },
   { name: '张国晶', email: 'Zhanggj@qhu.edu.cn' },
   { name: '吴利', email: 'wuli_qhu@163.com' },
-  { name: '边浩东', email: 'hpc_bhd@163.com' }
+  { name: '边浩东', email: 'hpc_bhd@163.com' },
+  { name: '白小军', email: 'xiaojunbai2023@163.com'},
+  { name: '王哲诚', email: 'zhecheng.wang@qhu.edu.cn'}
+
 ]
 </script>
 
