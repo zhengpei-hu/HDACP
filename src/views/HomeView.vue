@@ -11,10 +11,10 @@ const router = useRouter()
 const currentSlide = ref(0)
 const carouselImages = [
   { src: `${import.meta.env.BASE_URL}carousel/hezhao3.jpg`, caption: '' },
-  { src: `${import.meta.env.BASE_URL}carousel/hdacp.png`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hdacp_1.png`, caption: '' },
   { src: `${import.meta.env.BASE_URL}carousel/hezhao2.jpg`, caption: '' },
-  { src: `${import.meta.env.BASE_URL}carousel/hezhao4.jpg`, caption: '' },
-  { src: `${import.meta.env.BASE_URL}carousel/hezhao.jpg`, caption: '' }
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao4_1.jpg`, caption: '' },
+  { src: `${import.meta.env.BASE_URL}carousel/hezhao_1.jpg`, caption: '' }
 ]
 
 let slideInterval = null
@@ -42,7 +42,23 @@ onUnmounted(() => {
 // Data Subsets
 // Data Subsets
 const latestNews = (newsData && newsData.news) ? newsData.news.slice(0, 3) : []
-const latestPapers = (papersData && Array.isArray(papersData) && papersData.length > 0) ? papersData[0].items.slice(0, 3) : []
+// const latestPapers = (papersData && Array.isArray(papersData) && papersData.length > 0) ? papersData[0].items.slice(0, 3) : []
+// 替换latestPapers 定义
+const latestPapers = (() => {
+  // 1. 校验数据
+  if (!papersData || !Array.isArray(papersData) || papersData.length === 0) {
+    return [];
+  }
+
+  // 2. 合并所有年份的论文
+  const allPapers = papersData.flatMap(yearItem => {
+    // 确保 yearItem.items 是数组，避免报错
+    return Array.isArray(yearItem.items) ? yearItem.items : [];
+  });
+
+  // 3. 固定显示最新的4个
+  return allPapers.slice(0, 4);
+})();
 </script>
 
 <template>

@@ -268,14 +268,14 @@
             "id": "hjq",
             "name": "黄建强",
             "title": "教授",
-            "photo": "hjq.jpg",
+            "photo": "hjq_new.jpg",
             "email": "hjqxaly@163.com",
             "education": "清华大学(博士)",
             "research": "高性能计算、大规模图计算、智能计算系统等",
             "academicTitle": "中国计算机学会高性能计算专业委员会委员、CCF 高级会员",
             "bio": [
-                "黄建强，清华大学博士，中国计算机学会高性能计算专业委员会委员，现为青海大学教授，硕士生导师，信息化技术中心副主任，超算团队教练，目前以第一作者/通信作者在IEEE TPDS、SPE、FGCS、J SUPERCOMPUT、CLUSTER COMPUTING、清华大学学报、ACM CCGRID、ICA3PP、ICPADS等国内外知名期刊、会议上发表论文40余篇，入选2021年青海省“昆仑英才·高端创新创业人才”。",
-                "重点面向高性能计算系统、智能计算系统，提高系统的数据通信性能瓶颈，提高系统整体性能和能效比。具体研究内容涵盖大规模系统性能评估、MPI应用性能优化等、智能计算系统（包括但不限于大规模深度学习框架优化）。"
+                "黄建强，青海大学计算机学院常务副院长，教授、博士生导师、毕业于清华大学计算机系。兼任青海省青联副主席、国家超算（无锡）中心青海大学分中心主任、青海省绿色算力工程技术研究中心主任、国家高层次人才、青海省领军人才、中科院“西部之光-青年学者”人才,全国宝钢优秀教师奖获得者。",
+                "长期从事高性能计算、绿色算力等研究，在PPoPP、TPDS、DASFAA、FGCS等国际顶级会议和期刊发表论文80余篇，主持国家重点研发计划课题、国家自然科学基金、青海省重大专项课题等项目10余项，相关科研成果获得青海省自然科学奖。对课程体系进行创新，增强系统能力，致力于打造具有工程实践能力的绿色算力师资队伍，塑造育人文化，激发内在动力，以推动绿算科技创新以及人才培养，彰显教学改革和人才培养的成效，所指导的青海大学超算队多次在ASC世界大学生超算竞赛上获得总决赛全球一等奖，相关成果获得青海省教学成果一等奖，培养优秀超算人才的同时支撑了青海大学计算机学科与医学、新能源、生态等领域的智能交叉研究。"
             ],
             "awards": [
                 "本科毕设优秀指导教师",
@@ -377,7 +377,7 @@
         {
             "id": "jjf",
             "name": "贾金芳",
-            "title": "讲师",
+            "title": "副教授",
             "photo": "jjf.jpg",
             "email": "qhu_jf@163.com",
             "education": "华东理工大学博士（在读）",
@@ -419,45 +419,7 @@
                 }
             ]
         },
-        {
-            "id": "zy",
-            "name": "朱宇",
-            "title": "讲师",
-            "photo": "zhuyu.jpg",
-            "email": "sdcxzhuyu@163.com",
-            "education": "青海师范大学(博士)",
-            "research": "机器学习、数据挖掘、网络表示学习",
-            "bio": [
-                "朱宇，博士，讲师。研究方向主要聚焦于机器学习、数据挖掘和网络表示学习。目前主持国家自然科学基金和青海省自然科学基金多项项目。",
-                "在学术成果方面，在 Applied Sciences, Frontiers of Computer Science 等 SCI 及核心期刊发表多篇论文。"
-            ],
-            "projects": [
-                {
-                    "name": "国家自然科学基金",
-                    "title": "基于超边建模的异质超网络表示学习研究",
-                    "period": "2022.01-2025.12",
-                    "role": "项目负责人",
-                    "funding": "No. 62166032"
-                },
-                {
-                    "name": "青海省自然科学基金",
-                    "title": "富超边的异质超网络表示学习关键技术研究",
-                    "period": "2022.01-2024.12",
-                    "role": "项目负责人",
-                    "funding": "No. 2022-ZJ-961Q"
-                }
-            ],
-            "papers": [
-                {
-                    "year": "代表性论文",
-                    "items": [
-                        "Yu Zhu, et al. Hypernetwork representation learning with the set constraint. Applied Sciences, 2022. (SCI)",
-                        "Yu Zhu, et al. Text-enhanced network representation learning. Frontiers of Computer Science, 2020. (CCF C, SCI)",
-                        "Yu Zhu, et al. Network representation learning based on community and text features. LNCS, 2018. (EI)"
-                    ]
-                }
-            ]
-        },
+        
         {
             "id": "zgj",
             "name": "张国晶",
@@ -540,7 +502,7 @@
         {
             "id": "bhd",
             "name": "边浩东",
-            "title": "助教",
+            "title": "讲师",
             "photo": "bhd.jpg",
             "email": "hpc_bhd@163.com",
             "education": "青海大学(硕士)",
@@ -565,7 +527,150 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+            "id": "wzc",
+            "name": "王哲诚",
+            "title": "讲师",
+            "photo": "wzc.png",
+            "email": "zhecheng.wang@qhu.edu.cn",
+            "education": "西北工业大学工学博士",
+            "research": "数据压缩和存储、多媒体通信、计算机视觉",
+            "bio": [
+                "2024 年 09月进入青海大学计算机技术与应用学院工作，2025年09月任校聘副教授，2025年09月任IEEE信号处理学会多媒体信号处理技术委员会审稿人,。"
+                
+            ],
+            "awards": [
+                "2024 年度青海省“昆仑英才·高端创新创业人才”直接引进拔尖人才。"
+            ],
+            "papers": [
+                {
+                    "year": "2025",
+                    "items": [
+                        "WANG Z, WAN S, HUANG J. Octree-STCM: Octree-Based Spatio-TemporalContext Model for Lossless Geometry Compression of Dynamic PointCloud[C]//Proceedings of the 2025 International Conference on Multimedia Retrieval.New York,NY,USA:Association for Computing Machinery，2025：2073-2077.(CCF B)",
+                        "WEI L, ZHU Z, WANG Z, et al. Quantization Parameter Cascading for LossyPoint Cloud Attribute Compression in G-PCC1. APSIPA Transactions onSignal and Information Processing, 2025, 14(2).(中科院三区, JCR O2, IF: 3.2)",
+                        "王哲诚,杜正君，万帅,张伟,黄建强.面向 AVS 点云压缩标准的八叉树上下文模型优化[J].计算机辅助设计与图形学学报.DOI: 10.3724/SP.J.10892025-00010.(CCFA 中文期刊.IF:2.023)"
+                    ]
+                },
+                {
+                    "year": "2024",
+                    "items": [
+                        "WEI L, WAN S, WANG Z, et al. Near-Lossless Compression of Point CloudAttribute Using Quantization Parameter Cascading and Rate-DistortionOptimization[1l.IEEE Transactions on Multimedia, 2024,26:3317-3330.(中科院一区 Top, JCR Q1, IF: 9.7)",
+                        "WANG Z,WAN S,WEI L.  Optimized octree codec for geometry-based pointcloud compression[J. Signal, Image and Video Processing, 2024, 18: 761-772.(中科院四区, JCR Q3, IF: 2.1)"
+
+                    ]
+                },
+                {
+                    "year": "2023",
+                    "items": [
+                        "WANG Z, WAN S,WEI L. Local geometry-based intra predictionfor6]oetree-structured geometry coding of point clouds[J]. IEEE Transactions011Circuits and Systems for Video Technology,2023,33(2):886-896.(中科院-区Top, JCR Q1, IF: 11.1)",
+                        "王哲诚,万帅，魏磊.八叉树结构下动态点云的无损几何编码方法[J.西安交通大学学报,2023,57(12):11-19.(EI期刊,IF:2.55)",
+                        "WEI L,WAN S,DING X,YANG F, WANG Z. Adaptive GeometryReconstruction for Geometry-based Point Cloud Compression[C]//2023 IEEEInternational Conference on Multimedia and Expo (ICME). 2023: 1985-1990.(CCF B)",
+                        "WEI L, WAN S, DING X, WANG Z. Optimization of octree-based adaptivegeometry quantization via up-sampling for G-PCC[C]//2023 IEEE InternationalConference on Visual Communications and Image Processing (VCIP). 2023:1-5.(EI会议)"
+                       
+                    ]
+                     
+                },
+                {
+                    "year": "2022",
+                    "items":[
+                        "WANG Z, WAN S, WEl L. Logistic regression guided coding of single childmode for point cloud geometry compression[C]//2022 Picture CodingSymposium (PCS).IEEE,2022:145-149.(EI会议)",
+                        "WANG Z, WAN S, WEI L. Entropy coding of point cloud geometry usingmemory channel[C]//2022 EEE 8th International Conference on Computer andCommunications (ICCC).IEEE,2022:962-966.(EI会议)",
+                        "WEI L, WAN S, YANG F, WANG 2. Content-Adaptive Level of Detail forLossless Point Cloud Compression1. APSIPA Transactions on Signal andInformation Processing,2022,11(1).(中科院三区, JCR Q2, IF: 3.2)",
+                        "CHEN Z, WAN S, WANG Z, Geometry reconstruction for spatial scalability inpoint cloud compression based on neighbour occupancies[C]//InternationalWorkshop on Advanced Imaging Technology (IWAIT), SPIE, 2022, 121(77).(EI会议)"
+                    ]
+                },
+                {
+                    "year": "2021",
+                    "items":[
+                        "魏磊，万帅，王哲诚,等.面向点云无损压缩的快速细节层次优化方法[J.西安交通大学学报,2021,55(09):88-96.(EI期刊,IF:2.55)"
+                    ]
+
+                }
+            ],
+            "patents":[
+                "万帅，王哲诚.点云编解码方法、编码器、解码器以及计算机存储介质P].2024-12-27，中国,ZL202080103910.6.",
+                "万帅，陈章，王哲诚.基于平面拟合中心坐标投影的点云空间可伸缩编码几何重构方法[P1.2023-02-10，中国,ZL202110753985.5.",
+                "万帅，陈章，王哲诚、等.基于拟合平面几何误差最小的点云空间可伸缩编码几何重构方法|P1.2023-02-14，中国,ZL202110753984.0.",
+                "WANG Z, WAN S. [G-PCC] INew Proposal] On improving the eligibility ofplanar mode[EB.ISO/EC JTC1/SC29/WG7 m59001.2022.(被第二代 G-PCC国际标准采纳)",
+                "WANG Z, WAN S.[G-PCC| EE13.57 Test l Report on planar modelEB].27ISO/EC JTC1/SC29 WG7 m59533,2022.(被第二代 G-PCC 国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCC] INew Proposal] On geometryoccupancy intra predictionEB].ISO/EC JTC1/SC29 WG11 m52327, 2020.(被第一代 G-PCC 国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCC] CE13.1l report on Intra occupancyprediction|EB,.ISO/EC JTC1/SC29 WG11 m53328,2020.(被第一代 G-PCC国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCClSoftware] Harmonization for planar[57mode and occupancy intra predictionEB]. ISO/EC JTC1/SC29 WG11 m537232020.(被第一代 G-PCC 国际标准采纳)",
+                "TIAN T, HAO S, WANG Z, et al. [G-PCc]INew Proposal] On the initial probability ofbinary coders in dynamic OBUFEB].ISO/EC ITC1/SC29 WG7 m61098.2022.(被第代 G-PCC 国际标准采纳)"
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "藏毯图像生成及颜色编辑关键技术研究",
+                    "period": "2026-2029",
+                    "role": "参与"
+                },
+                {
+                    "name": "浪潮存储青蓝基金，企业合作",
+                    "title": "智能存储算法关键技术研究",
+                    "period": "2025-2026",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "TCL 创新科技基金,产学研专项基金",
+                    "title": "下一代国际视频编码标准关键技术研究",
+                    "period": "2023-至今",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "T上海海思技术有限公司，企业合作",
+                    "title": "VVC编码算法优化技术研究技术合作项目",
+                    "period": "2022-2023",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "OPPO广东移动通信有限公司，企业合作",
+                    "title": "未来视频标准技术合作项目",
+                    "period": "2020-2021",
+                    "role": "第一参与人"
+                }
+                
+            ]
+    },
+    {
+            "id": "bxj",
+            "name": "白小军",
+            "title": "讲师",
+            "photo": "bxj.png",
+            "email": "xiaojunbai2023@163.com",
+            "education": "燕山大学工学博士",
+            "research": "云计算、边缘计算、排队论、多目标优化方法、联邦深度强化学习",
+            "bio": [
+                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、云边缘计算、排队论、多目标优化方法、深度强化学习。"
+            ],
+
+            "papers": [
+                {
+                    "year": "发表论文",
+                    "items": [
+                        "Xiaojun Bai, et al. Performance analysis of an energy-saving strategy in cloud data centers based on a MMAP[K]/M[K]/N1+N2 non-preemptive priority queue, Future Generation Computer Systems, 2022, 136: 205-220. (CCF C/中科院SCI二区Top期刊 / IF= 6.2)",
+                        "Xiaojun Bai, et al. A cloud-edge-device collaborative offloading strategy with heterogeneous tasks and its performance evaluation, Frontiers of Information Technology & Electronic Engineering, 2024, 25(05): 664-684. (CCF C/中科院SCI三区期刊 / IF= 2.7)"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "青海省 2024 年“揭榜挂帅”项目:青海省绿电溯源与异构算力一体化关键技术研究与应用",
+                    "period": "2024",
+                    "role": "参与"
+                }
+            ],
+             "patents":[
+            "金顺福，白小军，等.云数据中心中基于双阈值滞后集群调度机制的节能策略:中国,202210665311.4[P1.2023-09-15.(已授权)。"
+            ],
+            "awards": [
+                "2022 年获得燕山大学博士研究生国家奖学金。"
+            ]
+          
+
+    }
     ],
     "students": [
         {

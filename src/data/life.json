@@ -3,9 +3,11 @@
         {
             "category": "超算类",
             "images": [
+                "ASC2025_1.png",
                 "h1.png",
                 "h2.png",
                 "h7.png"
+                
             ]
         },
         {
@@ -24,6 +26,14 @@
         }
     ],
     "academic": [
+        {
+            "event": "PPoPP 2026",
+            "images": [
+                "ppopp1.jpg",
+                "ppopp2.jpg",
+                "ppopp3.jpg"
+            ]
+        },
         {
             "event": "CNCC 2019",
             "images": [

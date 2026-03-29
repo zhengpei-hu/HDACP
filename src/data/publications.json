@@ -1,4 +1,21 @@
-[
+[  
+    {"year":"2026",
+    "items":[   
+    {
+      "content": "[PPoPP] PANA: A Fine-Grained Runtime-Adaptive Load Balancing for Parallel SpMV on Multicore CPUs",
+      "link": "https://dblp.dagstuhl.de/rec/conf/ppopp/BianZF0026.html"
+    }]
+    } ,
+    {
+
+    "year":"2025",
+    "items":[
+      {
+        "content": "[ICDE] EDTC: Exact Triangle Counting for Dynamic Graphs on GPU",
+        "link": "https://ieeexplore.ieee.org/document/11223785"
+     }
+    ]
+  },
   {
     "year": "2020",
     "items": [
@@ -689,4 +706,6 @@
       }
     ]
   }
+
+  
 ]
